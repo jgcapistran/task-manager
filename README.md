@@ -1,7 +1,7 @@
-````markdown
+
 # TaskManager API by JGCapistran
 
-Una API REST desarrollada con NestJS que permite:
+Una API REST desarrollada con NestJS que nos permite:
 
 - **Gestión de usuarios**  
   - Crear usuarios  
@@ -33,7 +33,7 @@ Una API REST desarrollada con NestJS que permite:
    ```bash
    git clone <REPO_URL> taskmanager-api
    cd taskmanager-api
-````
+   ```
 
 2. Crear (o completar) el archivo de entorno `.env` en la raíz:
 
@@ -73,11 +73,14 @@ Una API REST desarrollada con NestJS que permite:
 
 ## Documentación API
 
-Una vez en marcha, la documentación interactiva está disponible en:
+Una vez en marcha, la documentación interactiva se encuentra disponible en:
 
 ```
 http://<HOST_NAME>:<PORT>/api
 ```
+
+Por defecto disponible en `http://localhost:3001/api`.
+
 
 Allí podrás ver todos los endpoints, sus parámetros, respuestas de ejemplo y probarlos directamente desde el navegador.
 
